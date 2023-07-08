@@ -14,6 +14,6 @@ export const GlobalStyled = createGlobalStyle`
     font-family: ${font.default};
     color: ${colors.gray7};
     
-    background-color: ${colors.gray1};
+    background-color: ${colors.card_color2};
   }
 `
