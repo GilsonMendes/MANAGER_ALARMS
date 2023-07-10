@@ -34,6 +34,9 @@ export const DefaultTheme = {
 
     card_color1: '#1d242a',
     card_color2: '#151b1f',
+    card_color3: '#262f37',
+    card_color4: '#2c3640',
+    card_color5: '#36434f',
 
     gray1: '#121214',
     gray2: '#202024',
