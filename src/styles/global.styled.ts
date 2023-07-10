@@ -11,9 +11,16 @@ export const GlobalStyled = createGlobalStyle`
   }
 
   body {
+    width: 100vh;
+    overflow-x: hidden;
+
     font-family: ${font.default};
     color: ${colors.gray7};
     
     background-color: ${colors.card_color2};
+  }
+
+  button {
+    cursor: pointer;
   }
 `
