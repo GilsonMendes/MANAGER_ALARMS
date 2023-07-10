@@ -27,7 +27,7 @@ export const CardStyled = styled.div<CardType>`
   align-items: center;
   justify-content: start;
 
-  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.18);
 
   ${(props) =>
     props.warning

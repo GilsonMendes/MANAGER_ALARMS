@@ -3,9 +3,9 @@ import { CardStyled } from './card.styled'
 
 interface CardType {
   children: ReactNode
-  warning: boolean
+  warning?: boolean
 }
 
-export function CardWrapper({ children, warning }: CardType) {
+export function CardWrapper({ children, warning = false }: CardType) {
   return <CardStyled warning={warning}>{children}</CardStyled>
 }
